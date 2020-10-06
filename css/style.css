@@ -1,0 +1,10 @@
+.sapUiRespGrid.sapUiRespGridVSpace1>div
+{
+	margin-bottom:0px !important;
+}
+html.sap-desktop .sapMShellAppWidthLimited .sapMShellCentralBox
+{
+    margin-left: 0px !important; 
+    left: 0% !important; 
+	width:100% !important;
+}

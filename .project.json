@@ -1,0 +1,30 @@
+{
+  "generation": [
+    {
+      "templateId": "ui5template.basicSAPUI5ApplicationComponent",
+      "templateVersion": "1.4.0",
+      "dateTimeStamp": "Tue, 07 Mar 2017 18:26:11 GMT"
+    }
+  ],
+  "projectType": [
+    "sap.watt.uitools.ide.fiori"
+  ],
+  "mockpreview": {
+    "mockUri": "/destinations/DEH/sap/opu/odata/SAP/ZGTPPF110/",
+    "metadataFilePath": "",
+    "mockRequestsFilePath": "",
+    "loadJSONFiles": false,
+    "loadCustomRequests": false
+  },
+  "translation": {
+    "translationDomain": "",
+    "supportedLanguages": "en,ja,zh",
+    "defaultLanguage": "en",
+    "defaultI18NPropertyFile": "",
+    "resourceModelName": ""
+  },
+  "deploy": {
+    "destination": "DEH",
+    "name": "ZSCRAP_REPORT"
+  }
+}

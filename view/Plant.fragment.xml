@@ -1,0 +1,21 @@
+<core:FragmentDefinition
+		xmlns="sap.m"
+		xmlns:core="sap.ui.core">
+	<SelectDialog
+		id="plantPopup"
+		noDataText="{i18n>notfound}"
+		title="{i18n>selectplant}"
+		search="fnhandleSearchPlant"
+		confirm="fnCloseDialogPlant"
+		cancel="fnCancelDialogPlant"
+		items="{
+			path: '/PlantSet'
+		}" >
+		<StandardListItem
+			title="{Name1}"
+			description="{Werks}"
+			iconDensityAware="false"
+			iconInset="false"
+			type="Active" />
+	</SelectDialog>
+</core:FragmentDefinition>
